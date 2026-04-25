@@ -1,0 +1,6 @@
+import os
+
+# Automatically locate your computer's user "Home" folder
+HOME_DIR = os.path.expanduser("~")
+LOST_FILE = os.path.join(HOME_DIR, "lost_items.json")
+FOUND_FILE = os.path.join(HOME_DIR, "found_items.json")
